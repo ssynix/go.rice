@@ -309,3 +309,7 @@ func (b *Box) MustString(name string) string {
 func (b *Box) Name() string {
 	return b.name
 }
+
+func (b *Box) AbsolutePath() string {
+	return b.absolutePath
+}
